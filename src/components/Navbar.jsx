@@ -1,9 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import styled from 'styled-components'
+import Wrapper from '../assets/wrappers/Navbar'
 
 const Navbar = () => {
     return (
-        <nav>
+        <Wrapper>
             <div className="nav-center">
                 <span className='logo'>Drink Master</span>
                 <div className="nav-links">
@@ -12,7 +14,7 @@ const Navbar = () => {
                     <NavLink to='/newsletter' className='nav-link'>Newsletter</NavLink>
                 </div>
             </div>
-        </nav>
+        </Wrapper>
     )
 }
 
