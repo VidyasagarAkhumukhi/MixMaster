@@ -18,7 +18,7 @@ const Wrapper = styled.nav`
       color: var(--primary-500);
       font-weight: 700;
       letter-spacing: 3px;
-      margin-left:
+      
     }
     .nav-links {
     display: flex;
