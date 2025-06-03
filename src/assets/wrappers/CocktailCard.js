@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 const Wrapper = styled.article`
-  background: var(--white);
+  background: var(--black);
+  color: var(--white);
   box-shadow: var(--shadow-2);
   transition: var(--transition);
   display: grid;
@@ -15,6 +16,7 @@ const Wrapper = styled.article`
     border-top-right-radius: var(--borderRadius);
   }
   .footer {
+    color: var(--white);
     padding: 1.5rem;
     h4,
     h5 {
@@ -25,7 +27,7 @@ const Wrapper = styled.article`
     }
     p {
       margin-bottom: 1rem;
-      color: var(--grey-500);
+      color: var(--grey-400);
     }
   }
 `;
