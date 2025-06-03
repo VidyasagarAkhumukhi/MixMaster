@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { About, HomeLayout, Landing, Error, Newsletter, Cocktail, SinglePageError } from './Pages'
 import { loader as landingLoader } from "./Pages/Landing";
+import { loader as singleCocktailLoader } from "./Pages/Cocktail";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,8 @@ const router = createBrowserRouter([
       },
       {
         path: 'cocktail/:id',
+        errorElement: <SinglePageError />,
+        loader: singleCocktailLoader,
         element: <Cocktail />
       },
       {
