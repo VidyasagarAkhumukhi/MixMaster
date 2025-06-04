@@ -11,9 +11,9 @@ import {
   SinglePageError,
 } from './pages';
 
-import { loader as landingLoader } from './pages/Landing';
-import { loader as singleCocktailLoader } from './pages/Cocktail';
-import { action as newsletterAction } from './pages/Newsletter';
+import { loader as landingLoader } from './Pages/Landing';
+import { loader as singleCocktailLoader } from './Pages/Cocktail';
+import { action as newsletterAction } from './Pages/Newsletter';
 
 const queryClient = new QueryClient({
   defaultOptions: {

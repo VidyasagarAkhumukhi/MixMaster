@@ -49,14 +49,11 @@ const Cocktail = () => {
     return (
         <Wrapper>
             <header>
-                <button onClick={() => navigate(-1)} className='btn'>
-                    back home
-                </button>
                 <h3>{name}</h3>
             </header>
             <div className='drink'>
                 <img src={image} alt={name} className='img' />
-                <div className='drink-info'>
+                <div className='drink-info' >
                     <p>
                         <span className='drink-data'>name :</span>
                         {name}
@@ -90,6 +87,9 @@ const Cocktail = () => {
                     </p>
                 </div>
             </div>
+            <button onClick={() => navigate(-1)} className='btn' style={{ marginTop: '1rem' }}>
+                back home
+            </button>
         </Wrapper>
     );
 };
