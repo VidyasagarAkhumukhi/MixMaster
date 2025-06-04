@@ -9,7 +9,7 @@ import {
   Newsletter,
   Cocktail,
   SinglePageError,
-} from './pages';
+} from './Pages';
 
 import { loader as landingLoader } from './Pages/Landing';
 import { loader as singleCocktailLoader } from './Pages/Cocktail';
