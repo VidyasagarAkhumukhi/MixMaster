@@ -14,7 +14,7 @@ const Wrapper = styled.nav`
       padding-left: 0rem;
     }
     .logo {
-      font-size: clamp(4rem, 3vw, 3rem);
+      font-size: clamp(3.5rem, 3vw, 3rem);
       color: var(--primary-500);
       font-weight: 700;
       letter-spacing: 3px;

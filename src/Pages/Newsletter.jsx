@@ -64,7 +64,7 @@ const Newsletter = () => {
                     className='form-input'
                     name='email'
                     id='email'
-                    defaultValue='Noob@test.com'
+                    defaultValue='test@test.com'
                     required
                 />
             </div>
