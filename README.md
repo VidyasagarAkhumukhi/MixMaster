@@ -26,7 +26,7 @@ Drink Master is a dynamic web application built with React that allows users to 
 
 ## 🚀 Live Demo
 
-[Link to Live Demo](#)
+[Link to Live Demo](https://drinkmasternoto.netlify.app/)
 
 ## 🛠️ Technologies Used
 
